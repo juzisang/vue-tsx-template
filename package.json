@@ -1,5 +1,5 @@
 {
-  "name": "TsDemo",
+  "name": "vue-tsx",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -24,6 +24,9 @@
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
     "typescript": "^3.0.0",
-    "vue-template-compiler": "^2.5.17"
+    "typings-for-css-modules-loader": "^1.7.0",
+    "vue-template-compiler": "^2.5.17",
+    "vue-tsx-support": "^2.1.1",
+    "vue-jsx-hot-loader": "^1.4.0"
   }
 }

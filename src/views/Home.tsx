@@ -8,7 +8,7 @@ export default class Home extends Vue {
     return (
       <div class="home">
         <img alt="Vue logo" src={Logo} />
-        <HelloWorld msg="Helllsssssp" />
+        <HelloWorld msg="HelloWorld" />
       </div>
     );
   }

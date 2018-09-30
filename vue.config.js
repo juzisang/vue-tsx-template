@@ -12,7 +12,8 @@ module.exports = {
         .loader("vue-jsx-hot-loader");
 
       ["css", "less", "scss", "sass", "stylus", "postcss"].forEach(rule => {
-        ["vue-modules", "vue", "normal-modules", "normal"].forEach(oneOf => {
+        // ["vue-modules", "vue", "normal-modules", "normal"]
+        ["normal-modules"].forEach(oneOf => {
           config.module
             .rule(rule)
             .oneOf(oneOf)

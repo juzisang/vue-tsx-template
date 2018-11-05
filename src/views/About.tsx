@@ -1,5 +1,5 @@
 import { Vue, Component } from "vue-property-decorator";
-import * as style from "@/styles/views/about.scss";
+import * as style from "@/styles/views/about.module.scss";
 
 @Component
 export default class About extends Vue {

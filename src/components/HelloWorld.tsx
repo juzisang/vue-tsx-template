@@ -1,6 +1,6 @@
 import * as Tsx from "vue-tsx-support";
 import { Component, Prop } from "vue-property-decorator";
-import * as style from "@/styles/components/helloword.scss";
+import * as style from "@/styles/components/helloword.module.scss";
 
 export interface HelloWorldProps {
   msg?: string;
